@@ -1,0 +1,14 @@
+.grid {
+  display: grid;
+  /* 260px: narrowest readable venue card; single use, no token. */
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+  gap: var(--space-xl);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.empty {
+  padding-block: var(--space-xxl);
+  color: var(--color-on-surface-variant);
+}

@@ -1,0 +1,38 @@
+.notice {
+  display: grid;
+  gap: var(--space-md);
+  padding-block: var(--space-xl);
+  padding-inline: var(--space-xl);
+  border-radius: var(--radius-md);
+  border: var(--border-width) solid transparent;
+  border-inline-start-width: var(--space-xs);
+}
+
+.error {
+  background: var(--color-error-container);
+  border-color: var(--color-error);
+}
+
+.success {
+  background: var(--color-success-container);
+  border-color: var(--color-success);
+}
+
+.info {
+  background: var(--color-primary-container);
+  border-color: var(--color-primary);
+}
+
+.title {
+  font-size: var(--text-title-large-size);
+}
+
+.body {
+  font-size: var(--text-body-medium-size);
+}
+
+.action {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}

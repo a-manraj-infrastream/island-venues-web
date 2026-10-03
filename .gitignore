@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+npm-debug.log*
+vitest-results.json
+npm-audit.json
+npm-audit.sarif
+.DS_Store
+.vscode/
+.idea/

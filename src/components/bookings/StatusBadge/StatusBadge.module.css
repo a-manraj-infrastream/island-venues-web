@@ -1,0 +1,29 @@
+.badge {
+  display: inline-block;
+  padding-block: var(--space-xxs);
+  padding-inline: var(--space-md);
+  border-radius: var(--radius-full);
+  font-size: var(--text-label-medium-size);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.pending {
+  background: var(--color-warning-container);
+  color: var(--color-warning);
+}
+
+.approved {
+  background: var(--color-success-container);
+  color: var(--color-success);
+}
+
+.rejected {
+  background: var(--color-error-container);
+  color: var(--color-error);
+}
+
+.cancelled {
+  background: var(--color-neutral-container);
+  color: var(--color-on-surface-variant);
+}

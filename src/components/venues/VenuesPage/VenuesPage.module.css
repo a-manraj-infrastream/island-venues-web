@@ -1,0 +1,18 @@
+.page {
+  display: grid;
+  gap: var(--space-xxl);
+}
+
+.header {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.heading {
+  font-size: var(--text-headline-size);
+}
+
+.intro {
+  max-inline-size: 60ch;
+  color: var(--color-on-surface-variant);
+}
