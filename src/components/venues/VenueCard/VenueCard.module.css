@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  block-size: 100%;
+  padding: var(--space-xl);
+  background: var(--color-surface-container);
+  border: var(--border-width) solid var(--color-outline);
+  border-block-start: var(--space-xs) solid var(--color-primary);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+}
+
+.name {
+  font-size: var(--text-title-large-size);
+  color: var(--color-on-primary-container);
+}
+
+.facts {
+  display: grid;
+  gap: var(--space-xs);
+  margin: 0;
+  font-size: var(--text-body-medium-size);
+}
+
+.facts div {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-md);
+}
+
+.facts dt {
+  color: var(--color-on-surface-variant);
+}
+
+.facts dd {
+  margin: 0;
+  font-weight: 600;
+  text-align: end;
+}
+
+.action {
+  margin-block-start: auto;
+  align-self: flex-start;
+}

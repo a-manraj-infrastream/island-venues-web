@@ -1,0 +1,66 @@
+.page {
+  display: grid;
+  gap: var(--space-xxl);
+}
+
+.layout {
+  display: grid;
+  /* 320px: narrowest column that fits the booking form; single use, no token. */
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: var(--space-xxl);
+  align-items: start;
+}
+
+.details {
+  display: grid;
+  gap: var(--space-lg);
+}
+
+.name {
+  font-size: var(--text-headline-size);
+  color: var(--color-on-primary-container);
+}
+
+.town {
+  font-size: var(--text-body-large-size);
+  color: var(--color-on-surface-variant);
+}
+
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xxl);
+  margin: 0;
+}
+
+.facts dt {
+  font-size: var(--text-label-medium-size);
+  color: var(--color-on-surface-variant);
+}
+
+.facts dd {
+  margin: 0;
+  font-size: var(--text-title-large-size);
+  font-weight: 600;
+}
+
+.description {
+  max-inline-size: 60ch;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tags li {
+  padding-block: var(--space-xs);
+  padding-inline: var(--space-lg);
+  background: var(--color-surface-container-high);
+  border-radius: var(--radius-full);
+  font-size: var(--text-label-medium-size);
+}

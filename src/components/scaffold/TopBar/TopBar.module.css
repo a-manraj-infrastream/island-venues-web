@@ -1,0 +1,66 @@
+.topBar {
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  max-inline-size: var(--layout-max-inline-size);
+  margin-inline: auto;
+  padding-block: var(--space-lg);
+  padding-inline: var(--space-xl);
+}
+
+.brand {
+  display: grid;
+  text-align: start;
+  background: none;
+  border: 0;
+  padding: 0;
+  color: inherit;
+  cursor: pointer;
+}
+
+.brandName {
+  font-family: var(--font-display);
+  font-size: var(--text-title-large-size);
+  font-weight: 700;
+}
+
+.tagline {
+  font-size: var(--text-body-small-size);
+  opacity: 0.85;
+}
+
+.links {
+  display: flex;
+  gap: var(--space-xs);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  min-block-size: 44px; /* touch target, see Button */
+  padding-inline: var(--space-lg);
+  background: none;
+  border: 0;
+  border-radius: var(--radius-full);
+  color: inherit;
+  font-size: var(--text-label-large-size);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.link:hover {
+  background: var(--color-primary-hover);
+}
+
+.link[aria-current='page'] {
+  background: var(--color-surface);
+  color: var(--color-primary);
+}

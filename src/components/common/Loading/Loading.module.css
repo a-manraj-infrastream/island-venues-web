@@ -1,0 +1,5 @@
+.loading {
+  padding-block: var(--space-xxl);
+  color: var(--color-on-surface-variant);
+  font-size: var(--text-body-medium-size);
+}

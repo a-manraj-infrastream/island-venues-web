@@ -1,0 +1,71 @@
+/*
+ * Design tokens: the single source of truth for colour, spacing, radius and
+ * type. Components reference these through var(); no raw values elsewhere.
+ * Palette: "lagoon" (teal water, sand beaches, coral accents), light theme.
+ */
+:root {
+  /* Colour: lagoon teal */
+  --color-primary: #0b6e69;
+  --color-primary-hover: #085753;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #d3efeb;
+  --color-on-primary-container: #053f3c;
+
+  /* Colour: sand surfaces */
+  --color-surface: #fbf8f2;
+  --color-surface-container: #ffffff;
+  --color-surface-container-high: #f3ecdf;
+  --color-on-surface: #1f2a2c;
+  --color-on-surface-variant: #4f5d60;
+  --color-outline: #cfc4ad;
+  --color-outline-strong: #8c8270;
+  --color-focus-ring: #f2a541;
+
+  /* Colour: status */
+  --color-error: #b3261e;
+  --color-error-container: #fbe3e1;
+  --color-success: #1e6b3a;
+  --color-success-container: #ddf1e3;
+  --color-warning: #7a4f00;
+  --color-warning-container: #fbefd5;
+  --color-neutral-container: #ebe7df;
+
+  /* Spacing */
+  --space-none: 0;
+  --space-xxs: 2px;
+  --space-xs: 4px;
+  --space-sm: 6px;
+  --space-md: 8px;
+  --space-lg: 12px;
+  --space-xl: 16px;
+  --space-xxl: 24px;
+  --space-xxxl: 32px;
+  --space-extra: 64px;
+
+  /* Radius */
+  --radius-xs: 2px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 28px;
+  --radius-full: 88px;
+
+  /* Typography */
+  --font-display: 'Georgia', 'Times New Roman', serif;
+  --font-body: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+  --text-body-large-size: 16px;
+  --text-body-medium-size: 14px;
+  --text-body-small-size: 12px;
+  --text-label-large-size: 14px;
+  --text-label-medium-size: 12px;
+  --text-label-small-size: 11px;
+  --text-title-large-size: 22px;
+  --text-headline-size: 30px;
+
+  /* Layout */
+  --layout-max-inline-size: 1120px;
+  --border-width: 1px;
+  --focus-ring-width: 3px;
+  --shadow-card: 0 1px 2px rgb(31 42 44 / 8%), 0 4px 16px rgb(31 42 44 / 6%);
+}
